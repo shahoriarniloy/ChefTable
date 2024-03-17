@@ -19,13 +19,13 @@ const singleProduct = ({product,handleCart}) => {
 
                 <div className="lg:flex lg:justify-between text-zinc-800 text-opacity-80 text-base font-normal mb-4">
                     <div className="footer-left mt-4"> 
-                        <img src="/public/image/time.svg" alt="" />
+                        <img src="/image/time.svg" alt="" />
                         <p>{product.preparing_time}</p>
 
                     </div>
                     
                     <div className="footer-right mt-4">
-                    <img src="/public/image/calories.svg" alt="" />
+                    <img src="/image/calories.svg" alt="" />
                     <p>{product.calories}</p>
                     </div>
                 </div>
